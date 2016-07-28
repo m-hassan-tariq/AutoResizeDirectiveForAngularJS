@@ -1,9 +1,7 @@
-# AutoResizeDirectiveForAngularJS
-Custom directive that resize text area as per user key input or through paste/cut
+# Textarea Auto Resize Directive For AngularJS
+Custom directive that resize textarea as per user key input or through paste/cut
 
-Over the years I have seen many solutions for this problem, so I have written angualr directive to resolve this issue.
-I have prefer vertical resize because horizontal resize strikes me as being a mess, due to word-wrap, long lines, and so on, 
-but vertical resize seems to be pretty safe and nice. Please note instead of clientHeight attribute use scrollHeight
+Over the years I have seen many solutions for auto resize textarea input, so I have written angualr directive to resolve this issue. I have prefer vertical resize because horizontal resize strikes me as being a mess, due to word-wrap, long lines, and so on, but vertical resize seems to be pretty safe and nice. Please note instead of clientHeight attribute use scrollHeight
 
 ### Features
 - On key input.
